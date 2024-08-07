@@ -57,7 +57,7 @@ yarn build # build
 yarn start # if something goes wrong when build, try to use yarn start
 
 
-### build backend
+# build backend
 cd server
 go mod tidy # sync deps
 go build -o rdm.exe # compile windows
