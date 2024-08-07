@@ -54,13 +54,14 @@ git checkout develop
 
 yarn # install
 yarn build # build
+yarn start # if something goes wrong when build, try to use yarn start
 
+
+### build backend
 cd server
-
 go mod tidy # sync deps
-
 go build -o rdm.exe # compile windows
-go build -o rdm # *nix
+go build -o rdm # unix
 
 # setup with gui
 ./rdm.exe
